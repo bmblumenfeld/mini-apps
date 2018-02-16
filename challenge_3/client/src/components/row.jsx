@@ -13,6 +13,7 @@ var Row = function (props) {
   	        <Col key={index}
       	      row={props.row}
       	      col={index}
+              val={column}
       	      onClick={props.handleClick.bind(this)}
             />
     	    );

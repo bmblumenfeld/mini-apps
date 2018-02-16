@@ -1,0 +1,36 @@
+.frame {
+	
+
+	width: 50px;
+	height:50px;
+  border:thin solid;
+  border-color:black;
+}
+
+#root {
+
+  display: flex;
+  flex-direction: row;
+
+}
+.score {
+  height:20px;
+  width:20px;
+
+}
+
+.set {
+  display: flex;
+  flex-direction: row;
+
+}
+.first-bowl {
+  border:thin solid;
+  border-color:black;
+
+}
+.second-bowl {
+  border:thin solid;
+  border-color:black;
+
+}

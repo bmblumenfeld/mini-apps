@@ -1,0 +1,30 @@
+{
+  "name": "challenge_4",
+  "author": "Benjamin M. Blumenfeld",
+  "license": "ISC",
+  "version": "1.0.0",
+  "description": "Challenge_04 brings a new spin on an American favorite to the everyday computer user!",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js | live-server --open=./client/dist/index.html --port=8080 | webpack -d --watch"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.11.0"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
+    "jquery": "^3.3.1",
+    "live-server": "^1.2.0",
+    "mongoose": "^5.0.6",
+    "nodemon": "^1.14.12",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
